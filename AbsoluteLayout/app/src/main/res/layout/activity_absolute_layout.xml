@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbsoluteLayoutActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="2dp"
+        android:text="姓名："
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="0dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="161dp"
+        android:text="添加数据" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_x="117dp"
+        android:layout_y="161dp"
+        android:text="显示数据" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="51dp"
+        android:text="年龄："
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="68dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_x="76dp"
+        android:layout_y="48dp"
+        android:ems="10"
+        android:inputType="none|text|textPersonName"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="106dp"
+        android:text="身高："
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_x="77dp"
+        android:layout_y="102dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="216dp"
+        android:text="清除显示"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="119dp"
+        android:layout_y="217dp"
+        android:text="全部删除"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+</AbsoluteLayout>
